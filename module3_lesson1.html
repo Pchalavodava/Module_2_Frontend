@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Module 3. Lesson 1</title>
+    </head>
+    <body>
+        <div>
+            <h1 style="text-align: center">Урок 1: Таблицы и формы</h1>
+        </div>
+        <div>
+            <h3>Задание:</h3>
+        </div>
+        <div>
+            <p><b>Задание: Добавьте таблицу и форму на ваш сайт</b></p>
+            <ol>
+                <li>
+                    Создайте на своей веб-странице таблицу с заголовками и несколькими строками. В этой таблице представьте какие-либо данные (например, список товаров или расписание событий).
+                </li>
+                <li>
+                    Добавьте форму на страницу. Включите в форму поля для ввода текста, флажки (чекбоксы) и радиокнопки. Также добавьте кнопку отправки формы.
+                </li>
+            </ol>
+        </div>
+        <div>
+            <h3>Решение:</h3>
+        </div>
+        <div>
+            <h2 style="text-align: center">Концерты в Праге 2025</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Исполнитель</th>
+                        <th>Когда</th>
+                        <th>Место проведения</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Billie Eilish</td>
+                        <td>1 июня</td>
+                        <td>O2 Arena</td>
+                    </tr>
+                    <tr>
+                        <td>Imagine Dragons</td>
+                        <td>11 июня</td>
+                        <td>Letnany Airport</td>
+                    </tr>
+                    <tr>
+                        <td>Lara Fabian</td>
+                        <td>16 июня</td>
+                        <td>O2 Universum</td>
+                    </tr>
+                    <tr>
+                        <td>AC/DC</td>
+                        <td>26 июня</td>
+                        <td>Letnany Airport</td>
+                    </tr>
+                    <tr>
+                        <td>Post Malone</td>
+                        <td>12 августа</td>
+                        <td>Letnany Airport</td>
+                    </tr>
+                    <tr>
+                        <td>OneRepublic</td>
+                        <td>5 октября</td>
+                        <td>O2 Arena</td>
+                    </tr>
+                    <tr>
+                        <td>James Arthur</td>
+                        <td>14 декабря</td>
+                        <td>O2 Arena</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2 style="text-align: center">Заказать билет</h2>
+            <form action="/submit">
+                <div>
+                    <h3>Выбор концерта</h3>
+                    <p><input type="checkbox" name="concerts" id="billie-eilish" checked>Billie Eilish</p>
+                    <p><input type="checkbox" name="concerts" id="imagine-dragons">Imagine Dragons</p>
+                    <p><input type="checkbox" name="concerts" id="lara-fabian">Lara Fabian</p>
+                    <p><input type="checkbox" name="concerts" id="ac-dc">AC/DC</p>
+                    <p><input type="checkbox" name="concerts" id="post-malone">Post Malone</p>
+                    <p><input type="checkbox" name="concerts" id="one-republic">One Republic</p>
+                    <p><input type="checkbox" name="concerts" id="james-arthur">James Arthur</p>
+                </div>
+                <div>
+                    <h3>Выбрать способ оплаты</h3>
+                    <input type="radio" name="payment" id="card" required>
+                    <label for="card">Visa/Mastercard</label><br>
+                    <input type="radio" name="payment" id="cash">
+                    <label for="cash">Наличными при получении билета на кассе</label><br>
+                    <input type="radio" name="payment" id="bank-transfer">
+                    <label for="bank-transfer">Банковским переводом</label>
+                </div>
+                <div>
+                    <h3>Личные данные</h3>
+                    <label for="user-name">Имя пользователя</label>
+                    <input type="text" name="username" id="user-name" required>
+                    <label for="email">Электронная почта</label>
+                    <input type="email" name="email" id="email" required>
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
