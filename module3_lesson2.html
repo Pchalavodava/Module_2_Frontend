@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Module 3. Lesson 2</title>
+    </head>
+    <body>
+        <h1 style="text-align: center">Урок 2: Видео, аудио и другие медиа-элементы</h1>
+        <h2>Задание</h2>
+        <h3>Задание: Добавьте видео и аудио на ваш сайт</h3>
+        <ol>
+            <li>
+                Найдите видеофайл и аудиофайл, которые вы хотите добавить на свою веб-страницу. Убедитесь, что у вас есть файлы в различных форматах (MP4, WebM, Ogg для видео и MP3, Ogg для аудио).
+            </li>
+            <li>
+                Используя теги &ltvideo&gt и &ltaudio&gt, вставьте выбранные файлы на вашу веб-страницу.
+            </li>
+            <li>
+                Добавьте атрибут controls к каждому медиа-элементу, чтобы пользователи могли управлять воспроизведением.
+            </li>
+        </ol>
+        <h2>Решение</h2>
+
+        <table>
+            <caption>Видео с котятами в разных форматах</caption>
+            <tr>
+                <th>Формат MP4</th>
+                <th>Формат WebM</th>
+                <th>Формат Ogg</th>
+            </tr>
+            <tr>
+                <td>
+                    <video src="./video/kittens_mp4.mp4" poster="./video/oboi_kotjata_2560x1024.jpg" height="240" width="320" controls>Ваш браузер не поддерживает данное видео</video>
+                </td>
+                <td>
+                    <video src="./video/kittens_webm.webm" poster="./video/oboi_kotjata_2560x1024.jpg" height="240" width="320" controls>Ваш браузер не поддерживает данное видео</video>
+                </td>
+                <td>
+                    <video src="./video/kittens_ogg.ogg" poster="./video/oboi_kotjata_2560x1024.jpg" height="240" width="320" controls>Ваш браузер не поддерживает данное видео</video>
+                </td>
+            </tr>          
+        </table>
+
+        <table>
+            <caption>Классическая музыка</caption>
+            <tr>
+                <th>Симфония №40. Моцарт</th>
+                <th>Симфония №88. Гайдн</th>
+            </tr>
+            <tr>
+                <td>
+                    <audio src="./audio/01-symphony-n40-in-g-minor-k-550-i-molto-allegro.mp3" controls></audio>
+                </td>
+                <td>
+                    <audio src="./audio/07-finale-from-symphony-88-haydn.ogg" controls></audio>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
